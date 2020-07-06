@@ -1,0 +1,160 @@
+2019-03-04 10:00:24 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: moviePro)
+2019-03-04 10:00:24 [scrapy.utils.log] INFO: Versions: lxml 4.2.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 18:11:49) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-7-6.1.7601-SP1
+2019-03-04 10:00:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'moviePro', 'LOG_FILE': './log.txt', 'NEWSPIDER_MODULE': 'moviePro.spiders', 'SPIDER_MODULES': ['moviePro.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36'}
+2019-03-04 10:00:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-03-04 10:00:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-03-04 10:00:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-03-04 10:00:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['moviePro.pipelines.MovieproPipeline']
+2019-03-04 10:00:24 [scrapy.core.engine] INFO: Spider opened
+2019-03-04 10:00:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-03-04 10:00:24 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2019-03-04 10:00:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/frim/index1.html> (referer: None)
+2019-03-04 10:00:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index9358.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index9358.html>
+{'actor': '노진수', 'name': '天使死了'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20154.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20154.html>
+{'actor': None, 'name': '美丽的妻子迷恋'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20155.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20155.html>
+{'actor': None, 'name': '肉感的女教師'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20144.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20152.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20150.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20145.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index1633.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20147.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20151.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20156.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20144.html>
+{'actor': None, 'name': '我妻子的母亲'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20152.html>
+{'actor': None, 'name': '虏囚'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20150.html>
+{'actor': None, 'name': '背裤护理助手'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20145.html>
+{'actor': '알', 'name': '欲望的故事'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index1633.html>
+{'actor': '梁本熙', 'name': '暴劫倾情'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20147.html>
+{'actor': '이리단', 'name': '새엄마 2'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20151.html>
+{'actor': None, 'name': '奴隷の性欲 – 火柱'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20156.html>
+{'actor': '柴雪锋', 'name': '放下手机'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20157.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20158.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20161.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20126.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20060.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20165.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20166.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index9375.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20157.html>
+{'actor': '李暻天', 'name': '神魔契约之如意厨房'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20158.html>
+{'actor': '赵业博', 'name': '极品闺蜜'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20161.html>
+{'actor': '朱浩伟', 'name': '摘金奇缘 国语'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20127.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20126.html>
+{'actor': '托马斯·亨尼赛', 'name': '另一个时间'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20060.html>
+{'actor': 'Karzan', 'name': '竞速传奇'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20165.html>
+{'actor': 'Kenny', 'name': '最强壮的人'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20166.html>
+{'actor': 'Lino', 'name': '不知怎么说再见'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index9375.html>
+{'actor': '樫原辰郎', 'name': '性戯王48の奇跡'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20128.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20129.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20127.html>
+{'actor': 'Wanuri', 'name': '肯尼亚式友谊'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20130.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20133.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20134.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20131.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20132.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20128.html>
+{'actor': '路易斯·奥特加', 'name': '死亡天使'}
+2019-03-04 10:00:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20129.html>
+{'actor': '苏日', 'name': '古着商店之天启大爆炸'}
+2019-03-04 10:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20136.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20130.html>
+{'actor': '张著麟', 'name': '唐砖下之灵域双生'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20133.html>
+{'actor': '金国威', 'name': '徒手攀岩'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20134.html>
+{'actor': '加斯帕·诺', 'name': '高潮/舞·极乐'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20131.html>
+{'actor': '三宅响子', 'name': '东京偶像'}
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20137.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20132.html>
+{'actor': '斯蒂文·奈特', 'name': '宁静'}
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index17716.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20136.html>
+{'actor': '任德勇', 'name': '美人到之不素之客'}
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20138.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20140.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20170.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20167.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20168.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20137.html>
+{'actor': '任文', 'name': '最后的日出'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index17716.html>
+{'actor': '五百', 'name': '“大”人物'}
+2019-03-04 10:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.4567tv.tv/movie/index20171.html> (referer: https://www.4567tv.tv/frim/index1.html)
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20138.html>
+{'actor': '潘多利·佛加瑞', 'name': '最后一个音符'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20140.html>
+{'actor': '裘索·拉提欧', 'name': '重金属囧途'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20170.html>
+{'actor': '刘畅', 'name': '独家记忆番外之勇敢爱'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20167.html>
+{'actor': '刘颖', 'name': '真爱攻略'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20168.html>
+{'actor': '刘畅', 'name': '独家记忆番外之相信爱'}
+2019-03-04 10:00:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.4567tv.tv/movie/index20171.html>
+{'actor': '刘畅', 'name': '独家记忆番外之再见爱'}
+2019-03-04 10:00:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-03-04 10:00:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15569,
+ 'downloader/request_count': 37,
+ 'downloader/request_method_count/GET': 37,
+ 'downloader/response_bytes': 203907,
+ 'downloader/response_count': 37,
+ 'downloader/response_status_count/200': 37,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 3, 4, 2, 0, 27, 274109),
+ 'item_scraped_count': 36,
+ 'log_count/DEBUG': 74,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 37,
+ 'scheduler/dequeued': 37,
+ 'scheduler/dequeued/memory': 37,
+ 'scheduler/enqueued': 37,
+ 'scheduler/enqueued/memory': 37,
+ 'start_time': datetime.datetime(2019, 3, 4, 2, 0, 24, 777966)}
+2019-03-04 10:00:27 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -1,0 +1,36 @@
+1.
+    pip install wheel
+    pip install twisted
+    pip install pywin32
+    pip install scrapy
+2.
+    scrapy startproject ProName
+    cd ProName
+    scrapy genspider xxx www.xxx.com
+
+3.目录结构:
+    spider:放置一个爬虫文件
+    item:
+        xxx = Filed()
+    pipeline:
+        - process_item():
+        - open_spider()
+        - close_spider()
+    setings:
+4.爬虫文件:
+    - name
+    - start_urls:
+    - parse(self,response):
+    - xpath():列表元素Selector对象. extract()
+    - 持久化存储:
+        - 终端指令: 只可以将parse方法的返回值进行本地文件的持久化存储
+                - scrapy crawl xxx -o ./xxx.csv
+        - 管道:
+            1.数据解析
+            2.将解析到的数据封装到item类型的对象
+            3.通过yield向管道提交item对象
+            4.在管道的process_item方法中执行io操作,进行持久化存储
+            5.在配置文件中开启管道
+            注意:process_item方法中返回值的作用:
+        - 手动请求的发送:
+            - yiled scrapy.Request(url,callback)
